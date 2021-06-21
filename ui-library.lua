@@ -426,3 +426,7 @@ function TypicalUI.MakeUI(Name)
 	end
 	return Library;
 end
+
+return TypicalUI;
+
+end
