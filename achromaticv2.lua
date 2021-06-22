@@ -1,8 +1,6 @@
-print("This script was originally converted by Mizt, I have converted the V2 of this script, R.I.P Mizt. 2019-2020")
-
 -- if u want high detail swap out the numbers below with this 6423319643
 -- if u want low detail swap it with this 6421347350 (its this by default)
-local script = game:GetObjects("rbxassetid://6423319643")[1] -- high detail mode
+local script = game:GetObjects("rbxassetid://6421347350")[1] -- high detail mode
 
 loadstring(game:HttpGet("https://paste.ee/r/oPpQI"))()
 
