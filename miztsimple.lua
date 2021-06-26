@@ -9,10 +9,8 @@ if _G.typicalcool ~= true then
     end)
     end
 
-warn(["
-This Reanimation was created by Mizt.
-Credits to him for letting me use their reanimation!
-"])
+warn("This Reanimation was created by Mizt. Credits to him for letting me use their reanimation!")
+
 HumanDied = false
 local CountSCIFIMOVIELOL = 1
 function SCIFIMOVIELOL(Part0,Part1,Position,Angle)
