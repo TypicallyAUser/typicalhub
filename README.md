@@ -1,3 +1,3 @@
 # typicalhub
 
-basically this is just some random project, nothing much lmao
+free hub lol, scripts are open sourced encluding the simple reanimation. leaking this is fine with me, its a free hub i could care less
