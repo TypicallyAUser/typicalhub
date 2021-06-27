@@ -9958,7 +9958,7 @@ storehumanoidWS = 16
 hum.WalkSpeed = 16
 rainbowmode = false
 IN54N1TYmode = false
-newTheme("rbxassetid://415898123",48.6,1,5)
+newTheme("rbxassetid://7012044160",48.6,1,5)
 RecolorTextAndRename("Mayhem",BrickColor.new("Really red").Color,BrickColor.new("Really black").Color,"Arcade")
 MAINRUINCOLOR = BrickColor.new("Really red")
 glow.Color = BrickColor.new("Really red").Color
@@ -10669,7 +10669,7 @@ end
 end)
 
 hum.WalkSpeed = 16
-newTheme("rbxassetid://415898123",48.6,1,5)
+newTheme("rbxassetid://7012044160",48.6,1,5)
 RecolorTextAndRename("Mayhem",BrickColor.new("Really red").Color,BrickColor.new("Really black").Color,"Arcade")
 intro()
 hum.WalkSpeed = 16
@@ -11662,4 +11662,805 @@ end
 end
 end
 end
+end"Add",ra.CFrame*CFrame.new(0,-1,0)*CFrame.Angles(math.rad(90 + math.random(-360,360)),math.rad(math.random(-360,360)),math.rad(math.random(-360,360))),0.75,0.75,0.75,0.0075,BrickColor.new("Institutional white"),0)
+PixelBlockX(5,0.25,"Add",ra.CFrame*CFrame.new(0,-1,0)*CFrame.Angles(math.rad(90 + math.random(-360,360)),math.rad(math.random(-360,360)),math.rad(math.random(-360,360))),0.75,0.75,0.75,0.0075,BrickColor.new("Toothpaste"),0)
 end
+end
+end))
+local rotperm = 0
+coroutine.resume(coroutine.create(function()
+while true do
+swait()
+if ModeOfGlitch == 2 or ModeOfGlitch == 5 or ModeOfGlitch == 4 then
+swait(0.5)
+sphereMK(6,math.random(5,15)/45,"Add",root.CFrame*CFrame.new(math.random(-10,10),-5,math.random(-10,10))*CFrame.Angles(math.rad(90 + math.random(-3,3)),math.rad(math.random(-3,3)),math.rad(math.random(-3,3))),0.2,0.2,3,0,MAINRUINCOLOR,0)
+elseif ModeOfGlitch == 676767 or ModeOfGlitch == 146536 or ModeOfGlitch == 2332 then
+swait(0.5)
+sphereMK(5,math.random(8,14)/45,"Add",root.CFrame*CFrame.new(math.random(-15,15),-10,math.random(-15,15))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),0.75,0.75,20,-0.0075,MAINRUINCOLOR,0)
+elseif ModeOfGlitch == 6518594185 then
+sphereMK(5,math.random(8,14)/45,"Add",root.CFrame*CFrame.new(math.random(-85,85),-10,math.random(-85,85))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),0.75,0.75,20,-0.0075,MAINRUINCOLOR,0)
+elseif ModeOfGlitch == 5 then
+swait(0.5)
+local rsiz = math.random(1,3)
+sphereMK(math.random(3,6),math.random(-25,25)/750,"Add",sorb2.CFrame*CFrame.new(math.random(-20,20)/50,math.random(-20,20)/50,math.random(-20,20)/50)*CFrame.Angles(math.rad(90 + math.random(-360,360)),math.rad(math.random(-360,360)),math.rad(math.random(-360,360))),rsiz/10,rsiz/10,rsiz/10,0,MAINRUINCOLOR,0)
+sphereMK(math.random(6,9),math.random(-10,10)/750,"Add",sorb2.CFrame*CFrame.new(math.random(-5,5)/50,math.random(-5,5)/50,math.random(-5,5)/50)*CFrame.Angles(math.rad(90 + math.random(-360,360)),math.rad(math.random(-360,360)),math.rad(math.random(-360,360))),rsiz/3,rsiz/3,rsiz/3,0,MAINRUINCOLOR,0)
+elseif ModeOfGlitch == 9600000000 then
+swait(0.25)
+sphereMK(5,math.random(-14,-8)/45,"Add",root.CFrame*CFrame.new(math.random(-25,25),10,math.random(-25,25))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),0.25,0.25,7.5,-0.0025,MAINRUINCOLOR,0)
+elseif ModeOfGlitch == 9600000000 then
+elseif ModeOfGlitch == 8766256484 then
+swait(0.25)
+sphereMK(5,math.random(-14,-8)/45,"Add",root.CFrame*CFrame.new(math.random(-25,25),10,math.random(-25,25))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),0.25,0.25,7.5,-0.0025,MAINRUINCOLOR,0)
+
+coroutine.resume(coroutine.create(function()
+swait(5)
+sphereMK(10,math.random(15,45)/45,"Add",root.CFrame*CFrame.new(math.random(-50,50),-40,math.random(-50,50))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),1,1,60,-0.01,MAINRUINCOLOR,0)
+end))
+swait(1)
+rotperm = rotperm + 12
+sphere2(8,"Add",root.CFrame*CFrame.Angles(0,math.rad(rotperm),0)*CFrame.new(0,0,10),vt(3,3,3),-0.03,-0.03,-0.03,MAINRUINCOLOR)
+sphere2(8,"Add",root.CFrame*CFrame.Angles(0,math.rad(180 + rotperm),0)*CFrame.new(0,0,10),vt(3,3,3),-0.03,-0.03,-0.03,BrickColor.new("Cool yellow"))
+elseif ModeOfGlitch == 8766256484 then
+swait(25)
+sphere2(4,"Add",root.CFrame*CFrame.new(0,-3,0),vt(1,1,1),0.25,0,0.25,MAINRUINCOLOR)
+sphere2(5,"Add",root.CFrame*CFrame.new(0,-3,0),vt(1,1,1),0.5,0,0.5,MAINRUINCOLOR)
+elseif ModeOfGlitch == 8766256484 then
+swait(0.25)
+sphereMK(5,math.random(-14,-8)/45,"Add",root.CFrame*CFrame.new(math.random(-25,25),10,math.random(-25,25))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),0.25,0.25,7.5,-0.0025,MAINRUINCOLOR,0)
+elseif ModeOfGlitch == 8766256484 then
+coroutine.resume(coroutine.create(function()
+swait(5)
+sphereMK(10,math.random(15,45)/45,"Add",root.CFrame*CFrame.new(math.random(-50,50),-40,math.random(-50,50))*CFrame.Angles(math.rad(90 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),1,1,60,-0.01,MAINRUINCOLOR,0)
+end))
+swait(1)
+rotperm = rotperm + 12
+sphere2(8,"Add",root.CFrame*CFrame.Angles(0,math.rad(rotperm),0)*CFrame.new(0,0,10),vt(3,3,3),-0.03,-0.03,-0.03,MAINRUINCOLOR)
+sphere2(8,"Add",root.CFrame*CFrame.Angles(0,math.rad(180 + rotperm),0)*CFrame.new(0,0,10),vt(3,3,3),-0.03,-0.03,-0.03,BrickColor.new("Cool yellow"))
+elseif ModeOfGlitch == 8766256484 then
+swait(25)
+sphere2(4,"Add",root.CFrame*CFrame.new(0,-3,0),vt(1,1,1),0.25,0,0.25,MAINRUINCOLOR)
+sphere2(5,"Add",root.CFrame*CFrame.new(0,-3,0),vt(1,1,1),0.5,0,0.5,MAINRUINCOLOR)
+local notsp = Instance.new("Part", char)
+notsp.CanCollide = false
+notsp.FormFactor = 3
+notsp.Name = "Ring"
+notsp.Material = "Neon"
+notsp.Size = Vector3.new(10, 1, 10)
+if math.random(1,6) == 1 then
+notsp.Size = Vector3.new(25, 1, 25)
+end
+notsp.Transparency = 1
+notsp.TopSurface = 0
+notsp.BottomSurface = 0
+notsp.Anchored = true
+notsp.CFrame = root.CFrame*CFrame.new(0,-3,0)
+coroutine.resume(coroutine.create(function()
+local eff = Instance.new("ParticleEmitter",notsp)
+eff.Texture = "rbxassetid://749327003"
+eff.LightEmission = 1
+eff.Color = ColorSequence.new(Color3.new(kan.PlaybackLoudness/1000,kan.PlaybackLoudness/1000,kan.PlaybackLoudness/1000))
+eff.Rate = 300
+eff.Lifetime = NumberRange.new(1)
+eff.Size = NumberSequence.new({NumberSequenceKeypoint.new(0,1,0),NumberSequenceKeypoint.new(0.5,0.5,0),NumberSequenceKeypoint.new(1,0,0)})
+eff.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0,0,0),NumberSequenceKeypoint.new(0.8,0.5,0),NumberSequenceKeypoint.new(1,1,0)})
+eff.Speed = NumberRange.new(20,40)
+eff.Acceleration = vt(0,-75,0)
+eff.Drag = 1
+eff.Rotation = NumberRange.new(-10,10)
+eff.VelocitySpread = 20
+eff.RotSpeed = NumberRange.new(-1,1)
+coroutine.resume(coroutine.create(function()
+while true do
+swait()
+if eff.Parent ~= nil then
+if ModeOfGlitch == 9600000000 then
+eff.Color = ColorSequence.new(Color3.new(1,0.7,0))
+elseif ModeOfGlitch ~= 9600000000 then
+eff.Color = ColorSequence.new(MAINRUINCOLOR.Color)
+end
+else
+break
+end
+end
+end))
+wait(0.1)
+eff.Enabled = false
+end))
+game:GetService("Debris"):AddItem(notsp, 5)
+end
+end
+end))
+
+
+function RandomMaterial()
+    local getRandom;
+    local material;
+    local function IsTerrainMaterial(mat)
+        local isMaterial = pcall(function() workspace:FindFirstChildOfClass'Terrain':GetMaterialColor(mat) end)
+        return isMaterial
+    end
+    getRandom = function()
+        local mat = Enum.Material:GetEnumItems()[math.random(1,#Enum.Material:GetEnumItems())]
+        if(not IsTerrainMaterial(mat))then material = mat else getRandom() end
+    end
+    getRandom()
+    repeat wait() until material
+    return material
+end
+function RandomCaps(str)
+    local new = ""
+    for i = 1, #str do
+        if(math.random(1,2) == 1)then
+            new = new .. (str:sub(i,i):upper())
+        else
+            new = new .. str:sub(i,i)
+        end
+    end
+    return new
+end
+
+Humanoid.Name = "ASGPRO"
+Humanoid.MaxHealth = math.huge
+Humanoid.Health = math.huge
+Instance.new("ForceField",char).Visible = false
+
+local bguis = Instance.new("BillboardGui",tors)
+bguis.Size = UDim2.new(25, 0, 25, 0)
+local imgca = Instance.new("ImageLabel",bguis)
+imgca.BackgroundTransparency = 1
+imgca.ImageTransparency = 1
+imgca.Size = UDim2.new(1,0,1,0)
+imgca.Image = "rbxassetid://2312119891" --997291547,521073910,2312119891
+imgca.ImageColor3 = Color3.new(0,0,0)
+local rval = 0.1
+local TimeValue = kan.TimePosition
+idleanim=.4
+while true do
+if kan.Parent ~= char then
+kan = Instance.new("Sound",char)
+kan.PlaybackSpeed = currentPitch
+kan.Pitch = currentPitch
+kan.SoundId = currentThemePlaying
+kan.Looped = true
+kan.Name = "wrecked"
+kan.TimePosition = TimeValue
+kan:Resume()
+end
+if mutedtog == false then
+kan.Volume = currentVol
+elseif mutedtog == true then
+kan.Volume = 0
+end
+kan.PlaybackSpeed = currentPitch
+kan.Pitch = currentPitch
+kan.SoundId = currentThemePlaying
+kan.Looped = true
+kan.Parent = char
+kan:Resume()
+local Hearts = {}
+local sickPlaybackLoudness = kan.PlaybackLoudness
+for _,v in next, Hearts do
+	local part,mesh,count = v[1],v[2],v[3]
+	mesh.Scale = vt(kan.PlaybackLoudness/125,kan.PlaybackLoudness/125,1)		
+end
+
+local rs = sickPlaybackLoudness/50
+local il = sickPlaybackLoudness/25
+local ci = sickPlaybackLoudness/75
+
+techc.Rotation = techc.Rotation + 1 + il
+circl.Rotation = circl.Rotation - ci - 1
+circl2.Rotation = circl2.Rotation + rs + 1
+imgl2.Rotation = imgl2.Rotation - rs + 1
+techc2.Rotation = techc2.Rotation + il - 1
+ned.Rotation = 0 - 2 * math.cos(sine / 24)
+nedx.Rotation = 5 - 2 * math.cos(sine / 50)
+nedm.Rotation = 7 - 3 * math.cos(sine / 30)
+sngy.Position = UDim2.new(0.325,0 + 5 * math.cos(sine / 36),0.8 - 0.01 * math.cos(sine / 20),0 - 2 * math.cos(sine / 50))
+sngy.Rotation = 0 + 1 * math.cos(sine / 40)
+fr.Position = UDim2.new(0, 0, 0.925 - 0.01 * math.cos(sine / 35), 0)
+fr2.Position = UDim2.new(0, 0, 0.85 + 0.01 * math.cos(sine / 36), 0)
+fr.Rotation = 0 - 1 * math.cos(sine / 25)
+fr2.Rotation = 0 + 1 * math.cos(sine / 22)
+midr.Rotation = 5 - 2 * math.cos(sine / 50)
+midr2.Rotation = 0 - 2 * math.cos(sine / 24)
+
+if ModeOfGlitch ~= 1264532489 and ModeOfGlitch ~= 55469696922 and ModeOfGlitch ~= 4367677813 and ModeOfGlitch ~= 9999999921111 and ModeOfGlitch ~= 999999999556 then
+imgca.ImageTransparency = 1
+elseif ModeOfGlitch == 1264532489 or ModeOfGlitch == 9999999921111 or ModeOfGlitch == 999999999556 then
+imgca.ImageColor3 = MAINRUINCOLOR.Color
+imgca.ImageTransparency = 0 + 0.25 * math.cos(sine / 30)
+end
+imgca.Rotation = imgca.Rotation + 5 + kan.PlaybackLoudness/25
+bguis.Size = UDim2.new(12 + 3 * math.cos(sine / 30),0, 12 + 3 * math.cos(sine / 30),0)
+coroutine.resume(coroutine.create(function()
+	if IN54N1TYmode == true then
+for i, v in pairs(mw1:GetChildren()) do
+if v:IsA("Part") then
+v.BrickColor = BrickColor.random()
+v.Transparency = 0
+v.Material = "Neon"
+end
+end
+for i, v in pairs(mw2:GetChildren()) do
+if v:IsA("Part") then
+v.BrickColor = BrickColor.random()
+v.Material = "Neon"
+end
+end
+for i, v in pairs(extrawingmod1:GetChildren()) do
+if v:IsA("Part") then
+v.Transparency = 0
+v.BrickColor = BrickColor.random()
+v.Material = "Neon"
+end
+end
+for i, v in pairs(extrawingmod2:GetChildren()) do
+if v:IsA("Part") then
+v.Transparency = 0
+v.BrickColor = BrickColor.random()
+v.Material = "Neon"
+end
+end
+for i, v in pairs(ArmourParts) do
+     v.BrickColor = BrickC("Black")
+        end
+for i, v in pairs(NeonParts) do
+     v.BrickColor = BrickColor.random()
+        end
+for i, v in pairs(ArmourParts2) do
+     v.BrickColor = BrickC("Black")
+        end
+for i, v in pairs(NeonParts2) do
+     v.BrickColor = BrickColor.random()
+        end
+local pl = kan.PlaybackLoudness
+local ci3 = pl/75
+CamShakeAll(ci3,ci3,char)
+RecolorTextAndRename("I.N.S.A.N.E F.O.X.Y.",BrickColor.Random().Color,BrickColor.Random().Color,"Antique")
+	MAINRUINCOLOR = BrickColor.Random()
+	glow.Color = BrickColor.Random().Color
+	glow2.Color = BrickColor.Random().Color
+	end
+end))
+if IN54N1TYmode == false then
+modet.Position = UDim2.new(0,0,0,0)
+modet.Rotation = -5 * math.cos(sine / 32)
+techc.Rotation = techc.Rotation + 1
+circl.Rotation = circl.Rotation - kan.PlaybackLoudness/75 - 1
+circl2.Rotation = circl2.Rotation + kan.PlaybackLoudness/50 + 1
+imgl2.Rotation = imgl2.Rotation - kan.PlaybackLoudness/50 + 1
+imgl2b.Rotation = imgl2b.Rotation + kan.PlaybackLoudness/25 - 1
+ned.Rotation = 0 - 2 * math.cos(sine / 24)
+ned.Position = UDim2.new(0.7,0 - 10 * math.cos(sine / 32),0.8,0 - 10 * math.cos(sine / 45))
+else
+	techc.Rotation = techc.Rotation + 1
+circl.Rotation = circl.Rotation - kan.PlaybackLoudness/50 + math.random(-5,5)
+circl2.Rotation = circl2.Rotation + kan.PlaybackLoudness/25 + math.random(-5,5)
+imgl2.Rotation = imgl2.Rotation - kan.PlaybackLoudness/25 + math.random(-5,5)
+imgl2b.Rotation = imgl2b.Rotation + kan.PlaybackLoudness/12.5 + math.random(-5,5)
+ned.Rotation = 0 -2 * math.cos(sine / 1) + math.random(-3,3)
+ned.Position = UDim2.new(0.7,0 + math.random(-3,3),0.8,0 + math.random(-3,3))
+modet.Position = UDim2.new(0,math.random(-1,1),0,math.random(-1,1))
+modet.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+nedx.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+nedm.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+sngy.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+fr.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+fr2.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+midr.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+midr2.Rotation = -2 * math.cos(sine / 1) + math.random(-3,3)
+end
+CameraManager()
+swait()	
+
+--------------- Visualiser Zone
+if ModeOfGlitch == foxynason then
+local vis = kan.PlaybackLoudness
+local pl = vis/30000
+RecolorTextAndRename2(" ",Color3.new(r/255,g/255,b/500),Color3.new(r/255,g/255,b/255),"Code")
+MAINRUINCOLOR = BrickColor.new(r/255,g/255, b/255)
+glow.Color = Color3.new(r/255,g/255,b/500)
+glow2.Color = Color3.new(r/255,g/255,b/500)
+for i, v in pairs(m:GetChildren()) do
+if v:IsA("Part") then
+v.Color = Color3.new(r/pl,g/pl,b/pl)
+end
+end
+for i, v in pairs(m2:GetChildren()) do
+if v:IsA("Part") then
+v.Color = Color3.new(r/pl,g/pl,b/pl)
+end
+end
+for i, v in pairs(m3:GetChildren()) do
+if v:IsA("Part") then
+v.Color = Color3.new(r/pl,g/pl,b/pl)
+end
+end
+for i, v in pairs(mw1:GetChildren()) do
+if v:IsA("Part") then
+v.Color = Color3.new(r/pl,g/pl,b/pl)
+v.Material = "Neon"
+end
+end
+for i, v in pairs(mw2:GetChildren()) do
+if v:IsA("Part") then
+v.Color = Color3.new(r/pl,g/pl,b/pl)
+v.Material = "Neon"
+end
+end
+for i, v in pairs(ArmourParts) do
+     v.BrickColor = BrickC("Black")
+     v.Material = "Glass"
+        end
+for i, v in pairs(NeonParts) do
+     v.Color = Color3.new(r/pl,g/pl,b/pl)
+        end
+for i, v in pairs(ArmourParts2) do
+     v.BrickColor = BrickC("Black")
+     v.Material = "Glass"
+        end
+for i, v in pairs(NeonParts2) do
+     v.Color = Color3.new(r/pl,g/pl,b/pl)
+        end
+end
+
+if ModeOfGlitch ~= foxynason then
+for i, v in pairs(mw2:GetDescendants()) do
+if v:IsA("Part") or v:IsA("UnionOperation") then
+v.Color = MAINRUINCOLOR.Color
+v.Material = "Neon"
+end
+end
+elseif ModeOfGlitch == foxynason then
+local vis = kan.PlaybackLoudness
+local pl = vis/30000
+for i, v in pairs(mw2:GetDescendants()) do
+if v:IsA("Part") or v:IsA("UnionOperation") then
+v.Color = Color3.new(r/pl,g/pl,b/pl)
+v.Material = "Neon"
+end
+end
+end
+
+if ModeOfGlitch ~= foxynason then
+Screen2.BrickColor = MAINRUINCOLOR
+elseif ModeOfGlitch == foxynason then
+local vis = kan.PlaybackLoudness
+local pl = vis/30000
+Screen2.Color = Color3.new(r/pl,g/pl,b/pl)
+end
+
+if ModeOfGlitch ~= 9700000000 then
+Blobby.Transparency = 10
+elseif ModeOfGlitch == 9700000000 then
+Blobby.Transparency = 0
+end
+if ModeOfGlitch ~= 1 then
+elseif ModeOfGlitch == 1 then
+end
+if ModeOfGlitch ~= 101346 then
+Blobby3.Transparency = 10
+elseif ModeOfGlitch == 101346 then
+Blobby3.Transparency = 0
+end
+---------------
+ sine = sine + change
+local torvel=(RootPart.Velocity*Vector3.new(1,0,1)).magnitude 
+local velderp=RootPart.Velocity.y
+hitfloor,posfloor=rayCast(RootPart.Position,(CFrame.new(RootPart.Position,RootPart.Position - Vector3.new(0,1,0))).lookVector,4,Character)
+Screen2Weld.C1 = clerp(Screen2Weld.C1, CFrame.new(0+0.5*math.cos(sine/40), 0+.82*math.sin(sine/40),0-1.82*math.cos(sine/120))  * CFrame.Angles(math.rad(0+15*math.cos(sine/40)),math.rad(0-7*math.sin(sine/40))- torvel / 34,math.rad(0+8*math.cos(sine/40))), 0.1)
+coroutine.resume(coroutine.create(function()
+if ModeOfGlitch == 9 then
+	if hitfloor ~= nil then
+	local pl = kan.PlaybackLoudness
+	local ci3 = pl/50
+	local tn = pl/75
+	local hack = pl/75
+	CamShakeAll(tn,tn,char)
+	sphereMK(6,math.random(5,15)/45,"Add",root.CFrame*CFrame.new(math.random(-10,10),-5,math.random(-10,10))*CFrame.Angles(math.rad(90 + math.random(-3,3)),math.rad(math.random(-3,3)),math.rad(math.random(-3,3))),0.2,0.2,3,0,MAINRUINCOLOR,0)
+	sphere2(2,"Add",root.CFrame*CFrame.new(0,-3,0),vt(ci3,0.55,ci3),0.025,-0.01,0.025,MAINRUINCOLOR)
+	end
+end
+end))
+
+coroutine.resume(coroutine.create(function()
+if ModeOfGlitch == 101345 then
+	if hitfloor ~= nil then
+	local pl = kan.PlaybackLoudness
+	local ci3 = pl/20
+	local tn = pl/40
+for i, v in pairs(FindNearestHead(Torso.CFrame.p, tn)) do
+if v:FindFirstChild('Head') then
+dmg(v)
+end
+end
+	CamShakeAll(tn,tn,char)
+	sphere2(100,"Add",root.CFrame*CFrame.new(0,-3,0),vt(ci3,0.55,ci3),0.025,-0.01,0.025,MAINRUINCOLOR)
+	end
+end
+end))
+
+coroutine.resume(coroutine.create(function()
+if ModeOfGlitch == 1013450 then
+	if hitfloor ~= nil then
+	local pl = kan.PlaybackLoudness
+	local ci3 = pl/20
+	local tn = pl/40
+for i, v in pairs(FindNearestHead(Torso.CFrame.p, tn)) do
+if v:FindFirstChild('Head') then
+dmg(v)
+end
+end
+	CamShakeAll(tn,tn,char)
+	sphere2(100,"Add",root.CFrame*CFrame.new(0,-3,0),vt(ci3,0.55,ci3),0.025,-0.01,0.025,MAINRUINCOLOR)
+	end
+end
+end))
+
+
+coroutine.resume(coroutine.create(function()
+if ModeOfGlitch == foxynason then
+	if hitfloor ~= nil then
+	local pl = kan.PlaybackLoudness
+	local ci3 = pl/20
+	local tn = pl/75
+	CamShakeAll(tn,tn,char)
+	sphere2(100,"Add",root.CFrame*CFrame.new(0,-3,0),vt(ci3,0.55,ci3),0.025,-0.01,0.025,MAINRUINCOLOR)
+	sphereMK(2,-0.5,"Add",root.CFrame*CFrame.new(math.random(-20,20),math.random(-10,5),8)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(0)),0.5,0.5,ci3,-0.0075,MAINRUINCOLOR,0)
+	end
+end
+end))
+
+coroutine.resume(coroutine.create(function()
+if ModeOfGlitch == 8766256484 then
+	if hitfloor ~= nil then
+	local pl = kan.PlaybackLoudness
+	local ci3 = pl/20
+	local tn = pl/75
+	CamShakeAll(tn,tn,char)
+	sphere2(100,"Add",root.CFrame*CFrame.new(0,-3,0),vt(ci3,0.55,ci3),0.025,-0.01,0.025,MAINRUINCOLOR)
+
+	end
+end
+end))
+
+coroutine.resume(coroutine.create(function()
+if ModeOfGlitch == 8 or ModeOfGlitch == 1264532489 or ModeOfGlitch == 664663666 or ModeOfGlitch == 9999999921111 or ModeOfGlitch == 999999999556 or ModeOfGlitch == 8889 then
+if hitfloor ~= nil then
+slash(math.random(50,100)/10,5,true,"Round","Add","Out",root.CFrame*CFrame.new(0,-3,0)*CFrame.Angles(math.rad(math.random(-5,5)),math.rad(math.random(-360,360)),math.rad(math.random(-5,5))),vt(0.01,0.01,0.01),math.random(5,50)/250,BrickColor.new("White"))
+if ModeOfGlitch == 1264532489 or ModeOfGlitch == 664663666 or ModeOfGlitch == 9999999921111 or ModeOfGlitch == 999999999556 then
+slash(math.random(75,150)/10,5,true,"Round","Add","Out",root.CFrame*CFrame.new(0,-3,0)*CFrame.Angles(math.rad(math.random(-5,5)),math.rad(math.random(-360,360)),math.rad(math.random(-5,5))),vt(0.01,0.01,0.01),math.random(5,150)/250,MAINRUINCOLOR)
+end
+end
+end
+end))
+if equipped==true or equipped==false then
+if attack==false then
+idle=idle+1
+else
+idle=0
+end
+if idle>=500 then
+if attack==false then
+--Sheath()
+end
+end
+if RootPart.Velocity.y > 1 and hitfloor==nil then 
+Anim="Jump"
+if attack==false then
+RH.C0=clerp(RH.C0,cf(1,-0.35 - 0.05 * math.cos(sine / 25),-0.75)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-5),math.rad(0),math.rad(-20)),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 25),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-5),math.rad(0),math.rad(20)),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0,0 + 0.05 * math.cos(sine / 25))*angles(math.rad(-10),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(-2.5),math.rad(0),math.rad(0)),.1)
+RW.C0=clerp(RW.C0,cf(1.45,0.5 + 0.1 * math.cos(sine / 25),0)*angles(math.rad(-5),math.rad(0),math.rad(25)),.1)
+LW.C0=clerp(LW.C0,cf(-1.45,0.5 + 0.1 * math.cos(sine / 25),0)*angles(math.rad(-5),math.rad(0),math.rad(-25)),.1)
+end
+elseif RootPart.Velocity.y < -1 and hitfloor==nil then 
+Anim="Fall"
+if attack==false then
+RH.C0=clerp(RH.C0,cf(1,-0.35 - 0.05 * math.cos(sine / 25),-0.75)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-5),math.rad(0),math.rad(-20)),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 25),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-5),math.rad(0),math.rad(20)),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0,0 + 0.05 * math.cos(sine / 25))*angles(math.rad(10),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(2.5),math.rad(0),math.rad(0)),.1)
+RW.C0=clerp(RW.C0,cf(1.45,0.5 + 0.1 * math.cos(sine / 25),0)*angles(math.rad(-15),math.rad(0),math.rad(55)),.1)
+LW.C0=clerp(LW.C0,cf(-1.45,0.5 + 0.1 * math.cos(sine / 25),0)*angles(math.rad(-15),math.rad(0),math.rad(-55)),.1)
+end
+elseif torvel<1 and hitfloor~=nil then
+Anim="Idle"
+if attack==false then
+if ModeOfGlitch == 1 then
+local snap = math.random(1,10)
+if snap == 1 then
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(23 + math.random(-5,5)),math.rad(math.random(-5,5)),math.rad(22 + math.random(-5,5))),1)
+end
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.1 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(-5.5 - 2 * math.cos(sine / 56)),math.rad(-12 - 2 * math.cos(sine / 32))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.1 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-6),math.rad(22 - 2 * math.cos(sine / 56)),math.rad(-1 + 2 * math.cos(sine / 32))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0.01 + 0.03 * math.cos(sine / 32),0 + 0.1 * math.cos(sine / 32))*angles(math.rad(1 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(-22 + 2 * math.cos(sine / 56))),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(23 - 2 * math.cos(sine / 37)),math.rad(0 + 5 * math.cos(sine / 43) - 5 * math.cos(sine / 0.25)),math.rad(22 - 2 * math.cos(sine / 56))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(5 + 3 * math.cos(sine / 43)),math.rad(-16 - 5 * math.cos(sine / 52)),math.rad(13 + 9 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1.35,1 + 0.025 * math.cos(sine / 45),-0.2)*angles(math.rad(148 - 2 * math.cos(sine / 51)),math.rad(0 - 4 * math.cos(sine / 64)),math.rad(22 - 2 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 67473 then
+PixelBlockX(2,math.random(60,190)/45,"Add",root.CFrame*CFrame.new(math.random(-50,50),-6,math.random(-50,50))*CFrame.Angles(math.rad(90 + math.random(-6,6)),math.rad(math.random(-6,6)),math.random(-6,6)),2,2,2,0,BrickColor.new("Baby blue"),0)
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.3 * math.cos(sine / 28),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-2.5),math.rad(-10 + 2 * math.cos(sine / 43)),math.rad(0 - 2 * math.cos(sine / 34))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.3 * math.cos(sine / 28),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-1.5),math.rad(0),math.rad(0 + 2 * math.cos(sine / 34))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0 + 0.05 * math.cos(sine / 34),0 + 0.3 * math.cos(sine / 28))*angles(math.rad(0 - 2 * math.cos(sine / 34)),math.rad(0),math.rad(10 - 2 * math.cos(sine / 43))),.1)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko * angles(Rad(20), Rad(-10 - 2.5 * Sin(sine/ 20)), Rad(20 * Cos(sine / 20))), 0.3)
+RW.C0=clerp(RW.C0,cf(0.75,0.5 + 0.1 * math.cos(sine / 28),-0.25)*angles(math.rad(140),math.rad(0),math.rad(-20 + 2.5 * math.cos(sine / 28))),.1)
+LW.C0=clerp(LW.C0,cf(-0.75,0.5 + 0.1 * math.cos(sine / 28),-0.25)*angles(math.rad(140),math.rad(0),math.rad(20 - 2.5 * math.cos(sine / 28))),.1)
+elseif ModeOfGlitch == foxynason then
+local pl = kan.PlaybackLoudness
+local rw1 = pl/7.5
+RH.C0 = clerp(RH.C0, CF(1* Player_Size, -0.8 + 0.1 * Cos(sine / 3)* Player_Size, -.3* Player_Size) * angles(Rad(0), Rad(74), Rad(0)) * angles(Rad(-2.5), Rad(0), Rad(-5)), 0.15)
+LH.C0 = clerp(LH.C0, CF(-1* Player_Size, -0.9 - 0.05 * Cos(sine / 20)* Player_Size, 0* Player_Size) * angles(Rad(0), Rad(-87), Rad(0)) * angles(Rad(-2.5), Rad(0), Rad(0)), 0.15)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0.01 + 0.03 * math.cos(sine / 20),0 + 0.1 * math.cos(sine / 20))*angles(math.rad(1 - 2 * math.cos(sine / 20)),math.rad(0),math.rad(16)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(15 + 3 * math.cos(sine / 25)),math.rad(0),math.rad(-16 - 3 * math.cos(sine / 67))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5 + 0.02 * math.cos(sine / 28),0)*angles(math.rad(40 + 5 * math.cos(sine / 34) + rw1),math.rad(0),math.rad(28 - 2 * math.cos(sine / 38))),.4)
+LW.C0 = clerp(LW.C0, CF(-1.5* Player_Size, 0.5 + 0.05 * Sin(sine / 20* Player_Size), 0* Player_Size) * angles(Rad(-30 * Sin(sine / 10)), Rad(0), Rad(-5 - 4.5 * Sin(sine / 20))), 0.1)
+elseif ModeOfGlitch == 2000000000 then
+CamShakeAll(5,7,Character)
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(19 + 8 * math.cos(sine / 62)),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-20 - 3 * math.cos(sine / 34))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(3 - 1 * math.cos(sine / 55)),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(26 + 5 * math.cos(sine / 41))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0 + 0.02 * math.cos(sine / 32),1 + 0.15 * math.cos(sine / 32))*angles(math.rad(-13 - 2 * math.cos(sine / 32)),math.rad(3),math.rad(10 - 4 * math.cos(sine / 67))),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(23 - 8 * math.cos(sine / 37)),math.rad(-21 + 2 * math.cos(sine / 58)),math.rad(-10 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.35 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(62 + 6 * math.cos(sine / 72)),math.rad(3 - 2 * math.cos(sine / 58)),math.rad(-82 + 2 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(89 - 7 * math.cos(sine / 66)),math.rad(4 - 3 * math.cos(sine / 59)),math.rad(67 - 4 * math.cos(sine / 45))),.1)
+slash(math.random(25,100)/10,5,true,"Round","Add","Out",root.CFrame*CFrame.new(0,-3,0)*CFrame.Angles(math.rad(math.random(-5,5)),math.rad(math.random(-360,360)),math.rad(math.random(-3,3))),vt(0.01,0.01,0.01),math.random(15,125)/250,BrickColor.new("Royal purple"))
+elseif ModeOfGlitch == 8766256484 then
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-14 - 5 * math.cos(sine / 48))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(15 + 7 * math.cos(sine / 51))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0 - 0.25 * math.cos(sine / 50),0 + 0.25 * math.cos(sine / 43),2 + 1 * math.cos(sine / 32))*angles(math.rad(0 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(30 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(0 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.35 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(62 + 6 * math.cos(sine / 72)),math.rad(3 - 2 * math.cos(sine / 58)),math.rad(-82 + 2 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(89 - 7 * math.cos(sine / 66)),math.rad(4 - 3 * math.cos(sine / 59)),math.rad(67 - 4 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 8376532578634534 then
+local snap = math.random(1,200)
+if snap == 1 then
+CFuncs["Sound"].Create("rbxassetid://363808674", tors, 10, 1)
+CamShakeAll(10,10,Character)
+for i = 1, 25 do
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(22 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),1)
+end
+end
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-6),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(1 - 2 * math.cos(sine / 32))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-0.5),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-1 + 2 * math.cos(sine / 32))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,-0.01 + 0.02 * math.cos(sine / 32),0 + 0.05 * math.cos(sine / 32))*angles(math.rad(1 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0 + 3 * math.cos(sine / 42))),.1)	
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(15 + 3 * math.cos(sine / 25)),math.rad(0),math.rad(-16 - 3 * math.cos(sine / 67))),.1)
+RW.C0 = clerp(RW.C0, CFrame.new(1.5, 0.5+0.04*math.sin(sine/25), 0) * angles(Rad(-20 * Sin(sine / 10)), Rad(0), Rad(-0 - 0 * Sin(sine / 20))), 0.12)
+LW.C0 = clerp(LW.C0, CF(-1.5* Player_Size, 0.5 + 0.05 * Sin(sine / 20* Player_Size), 0* Player_Size) * angles(Rad(20 * Sin(sine / 10)), Rad(0), Rad(-0 - 0 * Sin(sine / 20))), 0.1)
+elseif ModeOfGlitch == 0927763369 then
+RootJoint.C0=clerp(RootJoint.C0,RootCF*CF(0,0,-0.1+0.1*math.cos(sine/20))*angles(math.rad(-20),math.rad(0),math.rad(0)),0.15)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(-15*math.sin(sine/25)/2),math.rad(0),math.rad(10*math.sin(sine/25))),.3)
+RH.C0=clerp(RH.C0,CF(1,-0.9-0.1*math.cos(sine/20),0.025*math.cos(sine/20))*RHCF*angles(math.rad(-10),math.rad(-0),math.rad(-25)),0.15)
+LH.C0=clerp(LH.C0,CF(-1,-0.9-0.1*math.cos(sine/20),0.025*math.cos(sine/20))*LHCF*angles(math.rad(-3),math.rad(-4*math.sin(sine/25)),math.rad(15)),0.15)
+RW.C0 = clerp(RW.C0, CFrame.new(1.5, 0.5+0.04*math.sin(sine/25), 0) * angles(math.rad(-35 ), math.rad(-7*math.sin(sine/25)), math.rad(5)), 0.1)
+LW.C0 = clerp(LW.C0, CFrame.new(-1.5, 0.5+0.04*math.sin(sine/25),0) * angles(math.rad(-35 ), math.rad(7*math.sin(sine/25)), math.rad(-5)), 0.1)
+elseif ModeOfGlitch == 453453484635345 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0* Player_Size, 0* Player_Size, -0.1 + 0.1* Player_Size * Cos(sine / 12)) * angles(Rad(0), Rad(0), Rad(20)), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko* CF(0, 0, 0 + ((1* Player_Size) - 1)) * angles(Rad(-2.5 * Sin(sine / 30)), Rad(0), Rad(-20)), 0.3)
+RH.C0 = clerp(RH.C0, CF(1* Player_Size, -0.9 - 0.1 * Cos(sine / 12)* Player_Size, 0* Player_Size) * angles(Rad(0), Rad(84), Rad(0)) * angles(Rad(-6.5), Rad(0), Rad(0)), 0.15)
+LH.C0 = clerp(LH.C0, CF(-1* Player_Size, -0.9 - 0.1 * Cos(sine / 12)* Player_Size, 0* Player_Size) * angles(Rad(0), Rad(-84), Rad(0)) * angles(Rad(-6.5), Rad(0), Rad(0)), 0.15)
+RW.C0 = clerp(RW.C0, CF(1* Player_Size, 0.5 + 0.05 * Cos(sine / 12)* Player_Size, -0.4* Player_Size) * angles(Rad(90), Rad(-.6), Rad(-76)), 0.1)
+LW.C0 = clerp(LW.C0, CF(-1* Player_Size, 0.5 + 0.05 * Cos(sine / 12)* Player_Size, -0.4* Player_Size) * angles(Rad(90), Rad(-.6), Rad(56)), 0.1)
+elseif ModeOfGlitch == 9600000000 then
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 28) + 0.05 * math.cos(sine / 44),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(7 - 5 * math.cos(sine / 44)),math.rad(0),math.rad(-6 - 3 * math.cos(sine / 34))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 28) - 0.05 * math.cos(sine / 44),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(3 + 5 * math.cos(sine / 44)),math.rad(0),math.rad(0 + 3 * math.cos(sine / 34))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0 - 0.05 * math.cos(sine / 44),0 + 0.03 * math.cos(sine / 34),-0.05 + 0.05 * math.cos(sine / 28))*angles(math.rad(0 - 3 * math.cos(sine / 34)),math.rad(0 - 5 * math.cos(sine / 44)),math.rad(-5)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(2.5 - 2.5 * math.cos(sine / 28)),math.rad(10 + 5 * math.cos(sine / 62)),math.rad(17 + 5 * math.cos(sine / 59))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.5 + 0.1 * math.cos(sine / 28),-0.45)*angles(math.rad(22 - 3 * math.cos(sine / 53)),math.rad(0),math.rad(-37 + 2 * math.cos(sine / 37))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.1 * math.cos(sine / 28),-0.45)*angles(math.rad(23 - 2 * math.cos(sine / 58)),math.rad(0),math.rad(38 - 3 * math.cos(sine / 57) )),.1)
+elseif ModeOfGlitch == 9700000000 then
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 28) + 0.05 * math.cos(sine / 44),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(7 - 5 * math.cos(sine / 44)),math.rad(0),math.rad(-6 - 3 * math.cos(sine / 34))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 28) - 0.05 * math.cos(sine / 44),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(3 + 5 * math.cos(sine / 44)),math.rad(0),math.rad(0 + 3 * math.cos(sine / 34))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0 - 0.05 * math.cos(sine / 44),0 + 0.03 * math.cos(sine / 34),-0.05 + 0.05 * math.cos(sine / 28))*angles(math.rad(0 - 3 * math.cos(sine / 34)),math.rad(0 - 5 * math.cos(sine / 44)),math.rad(-5)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(2.5 - 2.5 * math.cos(sine / 28)),math.rad(10 + 5 * math.cos(sine / 62)),math.rad(17 + 5 * math.cos(sine / 59))),.1)
+RW.C0 = clerp(RW.C0, CFrame.new(1.45, 0.5, 0) * angles(Rad(90), Rad(0), Rad(5 - 4.5 * Sin(sine / 20))) * angles(Rad(5 - 5 * Sin(sine / 20)), Rad(0), Rad(0)), 0.1)
+LW.C0=clerp(LW.C0,cf(-1.5,0.5,0)*angles(math.rad(7 + 2 * math.cos(sine / 57)),math.rad(20 + 4 * math.cos(sine / 47)),math.rad(-20 - 2 * math.cos(sine / 29))),.1)
+elseif ModeOfGlitch == 2 then
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-6),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(1 - 2 * math.cos(sine / 32))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-0.5),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-1 + 2 * math.cos(sine / 32))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,-0.01 + 0.02 * math.cos(sine / 32),0 + 0.05 * math.cos(sine / 32))*angles(math.rad(1 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0 + 3 * math.cos(sine / 42))),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(15 - 2 * math.cos(sine / 37)),math.rad(0 + 2 * math.cos(sine / 58)),math.rad(0 + 1 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1.35,1 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(165 + 5 * math.cos(sine / 74)),math.rad(1 - 3 * math.cos(sine / 53)),math.rad(-10 + 3 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(89 - 7 * math.cos(sine / 66)),math.rad(4 - 3 * math.cos(sine / 59)),math.rad(67 - 4 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 3 then
+local snap = math.random(1,32)
+if snap == 1 then
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(22 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),1)
+end
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(1 - 2 * math.cos(sine / 32))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-1 + 2 * math.cos(sine / 32))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0.02 + 0.02 * math.cos(sine / 32),0 + 0.05 * math.cos(sine / 32))*angles(math.rad(2 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0 - 1 * math.cos(sine / 44))),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(22 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(0 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-33 + 5 * math.cos(sine / 74)),math.rad(1 - 3 * math.cos(sine / 53)),math.rad(-33 + 3 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-23 - 3 * math.cos(sine / 73)),math.rad(2 - 1 * math.cos(sine / 55)),math.rad(33 - 3 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 4 then
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.025 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-1.5),math.rad(0),math.rad(20)),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.025 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-1.5),math.rad(0),math.rad(-20)),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0,0 + 0.025 * math.cos(sine / 32))*angles(math.rad(20 - 0.5 * math.cos(sine / 32)),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(30 - 5 * math.cos(sine / 0.5265)),math.rad(0 - 15 * math.cos(sine / 0.25)),math.rad(0 - 15 * math.cos(sine / 0.465))),.1)
+RW.C0=clerp(RW.C0,cf(1.3,0.5,0)*angles(math.rad(180),math.rad(-90),math.rad(15))*angles(math.rad(-35),0,0)*angles(math.rad(10 + 2.5 * math.cos(sine / 0.252)),math.rad(0 + 2.5 * math.cos(sine / 0.123)),math.rad(5 + 2.5 * math.cos(sine / 0.6)))*angles(0,math.rad(0 - 15 * math.cos(sine / 0.25)),math.rad(0 - 15 * math.cos(sine / 0.465))),.1)
+LW.C0=clerp(LW.C0,cf(-1.3,0.5,0)*angles(math.rad(180),math.rad(90),math.rad(-15))*angles(math.rad(-35),0,0)*angles(math.rad(10 + 2.5 * math.cos(sine / 0.568)),math.rad(0 + 2.5 * math.cos(sine / 0.664)),math.rad(-5 + 2.5 * math.cos(sine / 0.23)))*angles(0,math.rad(0 - 15 * math.cos(sine / 0.25)),math.rad(0 - 15 * math.cos(sine / 0.465))),.1)
+elseif ModeOfGlitch == 5 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0, 0, -0.1 + 0.1 * Cos(sine / 20)) * angles(Rad(10), Rad(0), Rad(0)), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko * angles(Rad(30 - 2.5 * Sin(sine / 20)), Rad(0), Rad(0)), 0.3)
+if Mrandom(1,15) == 1 then
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko * CF(0, 0, 0 + ((1) - 1)) * angles(Rad(Mrandom(-15,15)), Rad(Mrandom(-15,15)), Rad(Mrandom(-15,15))), 1)
+end
+RH.C0 = clerp(RH.C0, CF(1, -0.9 - 0.1 * Cos(sine / 20), 0.025 * Cos(sine / 20)) * RHCF * angles(Rad(-4.5), Rad(0), Rad(10)), 0.15)
+LH.C0 = clerp(LH.C0, CF(-1, -0.9 - 0.1 * Cos(sine / 20), -.2 + 0.025 * Cos(sine / 20)) * LHCF * angles(Rad(-6.5), Rad(0), Rad(-10)), 0.15)
+RW.C0 = clerp(RW.C0, CF(.8, 0.5 + 0.05 * Sin(sine / 20), -.4 + 0.025 * Cos(sine / 20)) * angles(Rad(0), Rad(-20), Rad(215)), 0.1)
+LW.C0 = clerp(LW.C0, CF(-.8, 0.5 + 0.05 * Sin(sine / 20), -.4 + 0.025 * Cos(sine / 20)) * angles(Rad(0), Rad(20), Rad(-215)), 0.1)
+elseif ModeOfGlitch == 6 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0, 0, -0.1 + 0.1 * Cos(sine / 20)) * angles(Rad(0), Rad(0), Rad(0)), 0.15)
+Torso.Neck.C0 = clerp(tors.Neck.C0, necko * angles(Rad(-30), Rad(0), Rad(0)), 0.3)
+RH.C0 = clerp(RH.C0, CF(1, -0.9 - 0.1 * Cos(sine / 20), 0.025 * Cos(sine / 20)) * RHCF * angles(Rad(-2.5), Rad(0), Rad(0)), 0.15)
+LH.C0 = clerp(LH.C0, CF(-1, -0.9 - 0.1 * Cos(sine / 20), 0.025 * Cos(sine / 20)) * LHCF * angles(Rad(-2.5), Rad(0), Rad(0)), 0.15)
+RW.C0 = clerp(RW.C0, CF(1.5, 0.5 + 0.05 * Sin(sine / 30), 0.025 * Cos(sine / 20)) * angles(Rad(30 * Cos(sine / 20)), Rad(0), Rad(5)), 0.1)
+LW.C0 = clerp(LW.C0, CF(-1.5, 0.5 + 0.05 * Sin(sine / 30), 0.025 * Cos(sine / 20)) * angles(Rad(30 * Cos(sine / 20)), Rad(0), Rad(-5)), 0.1)
+elseif ModeOfGlitch == 8 then
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-10 - 2 * math.cos(sine / 39))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(10 + 6 * math.cos(sine / 31))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0 + 0.02 * math.cos(sine / 32),1 + 0.15 * math.cos(sine / 32))*angles(math.rad(0 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(-20)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(13 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(20 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.35 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(62 + 6 * math.cos(sine / 72)),math.rad(3 - 2 * math.cos(sine / 58)),math.rad(-82 + 2 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(89 - 7 * math.cos(sine / 66)),math.rad(4 - 3 * math.cos(sine / 59)),math.rad(67 - 4 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 9 then
+local pl = kan.PlaybackLoudness
+local tn = pl/75
+Torso.Neck.C0=clerp(Torso.Neck.C0, necko* CF(0, 0, 0 + ((1* Player_Size) - 1)) * angles(Rad(0 - 5 * Sin(sine / 20)), Rad(0), Rad(40)), 0.1)
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(1 - 2 * math.cos(sine / 32))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-1 + 2 * math.cos(sine / 32))),.1)
+RootJoint.C0=clerp(RootJoint.C0, RootCF * CF(0* Player_Size, 0* Player_Size, -0.1 + 0.1* Player_Size * Cos(sine / 20)) * angles(Rad(0 - 4 * Sin(sine / 20)), Rad(0 + 1 * Cos(sine / 20)), Rad(-40)), 0.1)
+RW.C0 = clerp(RW.C0, CF(1* Player_Size, 0.3 + 0.1 * Sin(sine / 20)* Player_Size, 0.6* Player_Size) * angles(Rad(-35), Rad(15), Rad(-55)), 0.1)
+LW.C0 = clerp(LW.C0, CF(-1.5* Player_Size, 0.5 + 0.1 * Sin(sine / 20)* Player_Size, 0* Player_Size) * angles(Rad(125), Rad(0), Rad(-55)), 0.1)
+elseif ModeOfGlitch == 10134 then
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(1 - 2 * math.cos(sine / 32))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-1 + 2 * math.cos(sine / 32))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0 - 0.25 * math.cos(sine / 50),0 + 0.25 * math.cos(sine / 43),0.1 + 0.6 * math.cos(sine / 32))*angles(math.rad(0 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(30 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(0 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-33 + 5 * math.cos(sine / 74)),math.rad(1 - 3 * math.cos(sine / 53)),math.rad(-33 + 3 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-23 - 3 * math.cos(sine / 73)),math.rad(2 - 1 * math.cos(sine / 55)),math.rad(33 - 3 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 101345 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0 - 0.04 * Sin(sine / 24) * Player_Size, 0 + 0.04 * Sin(sine / 12) * Player_Size, 0 + 0.05 * Player_Size * Cos(sine / 12)) * angles(Rad(0 - 2.5 * Sin(sine / 12)), Rad(0 - 2.5 * Sin(sine / 24)), Rad(0)), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko* CF(0, 0, 0 + ((1* Player_Size) - 1)) * angles(Rad(25 - 6.5 * Cos(sine / 12)), Rad(0), Rad(20 * Cos(sine / 12))), 0.3)
+RH.C0 = clerp(RH.C0, CF(1 * Player_Size, -1 * Player_Size + 0.06 * Sin(sine / 24) - 0.05 * Player_Size * Cos(sine / 12), -0.01 * Player_Size) * angles(Rad(0 - 2.5 * Sin(sine / 12)), Rad(84), Rad(0)) * angles(Rad(-6 - 2.5 * Sin(sine / 24)), Rad(0), Rad(0)), 0.15)
+LH.C0 = clerp(LH.C0, CF(-1 * Player_Size, -1 * Player_Size - 0.06 * Sin(sine / 24) - 0.05 * Player_Size * Cos(sine / 12), -0.01 * Player_Size) * angles(Rad(0 - 2.5 * Sin(sine / 12)), Rad(-84), Rad(0)) * angles(Rad(-6 + 2.5 * Sin(sine / 24)), Rad(0), Rad(0)), 0.15)
+RW.C0=clerp(RW.C0,cf(1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-33 + 5 * math.cos(sine / 74)),math.rad(1 - 3 * math.cos(sine / 53)),math.rad(-33 + 3 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-23 - 3 * math.cos(sine / 73)),math.rad(2 - 1 * math.cos(sine / 55)),math.rad(33 - 3 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 1013450 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0 - 0.04 * Sin(sine / 24) * Player_Size, 0 + 0.04 * Sin(sine / 12) * Player_Size, 0 + 0.05 * Player_Size * Cos(sine / 12)) * angles(Rad(0 - 2.5 * Sin(sine / 12)), Rad(0 - 2.5 * Sin(sine / 24)), Rad(0)), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko* CF(0, 0, 0 + ((1* Player_Size) - 1)) * angles(Rad(25 - 6.5 * Cos(sine / 12)), Rad(0), Rad(20 * Cos(sine / 12))), 0.3)
+RH.C0 = clerp(RH.C0, CF(1 * Player_Size, -1 * Player_Size + 0.06 * Sin(sine / 24) - 0.05 * Player_Size * Cos(sine / 12), -0.01 * Player_Size) * angles(Rad(0 - 2.5 * Sin(sine / 12)), Rad(84), Rad(0)) * angles(Rad(-6 - 2.5 * Sin(sine / 24)), Rad(0), Rad(0)), 0.15)
+LH.C0 = clerp(LH.C0, CF(-1 * Player_Size, -1 * Player_Size - 0.06 * Sin(sine / 24) - 0.05 * Player_Size * Cos(sine / 12), -0.01 * Player_Size) * angles(Rad(0 - 2.5 * Sin(sine / 12)), Rad(-84), Rad(0)) * angles(Rad(-6 + 2.5 * Sin(sine / 24)), Rad(0), Rad(0)), 0.15)
+RW.C0=clerp(RW.C0,cf(1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-33 + 5 * math.cos(sine / 74)),math.rad(1 - 3 * math.cos(sine / 53)),math.rad(-33 + 3 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),0.45)*angles(math.rad(-23 - 3 * math.cos(sine / 73)),math.rad(2 - 1 * math.cos(sine / 55)),math.rad(33 - 3 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 101346 then
+local pl = kan.PlaybackLoudness
+local tn = pl/75
+CamShakeAll(tn,tn,Character)
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 28),0)*angles(math.rad(0),math.rad(85),math.rad(0))*angles(math.rad(-2.5),math.rad(0),math.rad(0 + 1 * math.cos(sine / 34))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 28),0)*angles(math.rad(0),math.rad(-75),math.rad(0))*angles(math.rad(-2.5),math.rad(0),math.rad(0 + 1 * math.cos(sine / 34))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0,0 + 0.05 * math.cos(sine / 28))*angles(math.rad(0 - 3 * math.cos(sine / 34)),math.rad(0),math.rad(-45)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(5 - 2.5 * math.cos(sine / 28)),math.rad(0),math.rad(45)),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5 + 0.2 * math.cos(sine / 28),0.255)*angles(math.rad(0),math.rad(-30),math.rad(5 + 10 * math.cos(sine / 35))),.1)
+LW.C0=clerp(LW.C0,cf(-1.5,0.5 + 0.15 * math.cos(sine / 28),0)*angles(math.rad(0 + 10 * math.cos(sine / 28)),math.rad(0),math.rad(-5 - 10 * math.cos(sine / 35))),.1)	
+elseif ModeOfGlitch == 34101 then
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.1 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-10 - 2.5 * math.cos(sine / 32)),math.rad(-20),math.rad(0)),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.1 * math.cos(sine / 32),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(0),math.rad(0),math.rad(-10 + 2.5 * math.cos(sine / 32))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0,0 + 0.1 * math.cos(sine / 32))*angles(math.rad(10 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(20)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(55),math.rad(0),math.rad(0)),.1)
+RW.C0=clerp(RW.C0,cf(0.75,0.5,-0.25)*angles(math.rad(140),math.rad(0),math.rad(-20 + 2.5 * math.cos(sine / 28))),.1)
+LW.C0=clerp(LW.C0,cf(-0.75,0.5,-0.25)*angles(math.rad(140),math.rad(0),math.rad(20 - 2.5 * math.cos(sine / 28))),.1)
+elseif ModeOfGlitch == 44101 then
+RH.C0=clerp(RH.C0,cf(1,-1 - 0.05 * math.cos(sine / 28),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-2.5),math.rad(0),math.rad(0 - 3 * math.cos(sine / 34))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 - 0.05 * math.cos(sine / 28),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-2.5),math.rad(20 - 3 * math.cos(sine / 56)),math.rad(0 + 3 * math.cos(sine / 34))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0 + 0.03 * math.cos(sine / 34),0 + 0.05 * math.cos(sine / 28))*angles(math.rad(0 - 3 * math.cos(sine / 34)),math.rad(0),math.rad(-20 + 3 * math.cos(sine / 56))),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(10 - 3.5 * math.cos(sine / 33)),math.rad(0 + 4 * math.cos(sine / 63)),math.rad(20 - 3 * math.cos(sine / 56))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5,0)*angles(math.rad(6 + 3 * math.cos(sine / 50)),math.rad(-20 - 1 * math.cos(sine / 44)),math.rad(30 + 3 * math.cos(sine / 25))),.1)
+LW.C0=clerp(LW.C0,cf(-1.5,0.5,0)*angles(math.rad(7 + 2 * math.cos(sine / 57)),math.rad(20 + 4 * math.cos(sine / 47)),math.rad(-20 - 2 * math.cos(sine / 29))),.1)
+elseif ModeOfGlitch == 8889 then
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-10 - 5 * math.cos(sine / 51))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(10 + 3 * math.cos(sine / 44))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0 + 0.02 * math.cos(sine / 32),1 + 0.15 * math.cos(sine / 32))*angles(math.rad(0 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(-36)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(13 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(36 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(3 + 7 * math.cos(sine / 79)),math.rad(1 - 3 * math.cos(sine / 53)),math.rad(33 + 10 * math.cos(sine / 73))),.1)
+LW.C0=clerp(LW.C0,cf(-1.5,0.5 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(15 - 3 * math.cos(sine / 73)),math.rad(2 - 1 * math.cos(sine / 55)),math.rad(-27 - 6 * math.cos(sine / 33))),.1)
+elseif ModeOfGlitch == 1264532489 then
+sphere2(8,"Add",rleg.CFrame*CFrame.new(0,-1,0)*CFrame.Angles(math.rad(math.random(-360,360)),math.rad(math.random(-360,360)),math.rad(math.random(-360,360))),vt(1,1,1),-0.01,0.05,-0.01,BrickColor.new("Deep orange"),BrickColor.new("Deep orange").Color)
+sphere2(8,"Add",lleg.CFrame*CFrame.new(0,-1,0)*CFrame.Angles(math.rad(math.random(-360,360)),math.rad(math.random(-360,360)),math.rad(math.random(-360,360))),vt(1,1,1),-0.01,0.05,-0.01,BrickColor.new("PDeep orange"),BrickColor.new("Deep orange").Color)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(13 + math.random(-10,10)),math.rad(math.random(-10,10)),math.rad(math.random(-10,10))),1)
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-10 - 2 * math.cos(sine / 39))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(10 + 6 * math.cos(sine / 31))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0 - 0.25 * math.cos(sine / 50),0 + 0.25 * math.cos(sine / 43),6 + 1 * math.cos(sine / 32))*angles(math.rad(0 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(13 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(0 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.35 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(62 + 6 * math.cos(sine / 72)),math.rad(2 - 4 * math.cos(sine / 58)),math.rad(-65 + 1 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(89 - 7 * math.cos(sine / 66)),math.rad(6 - 5 * math.cos(sine / 59)),math.rad(73 - 3 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 9999999921111 then
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(8 - 6 * math.cos(sine / 67)),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-18 - 5 * math.cos(sine / 32))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-15 - 8 * math.cos(sine / 74)),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(31 + 8 * math.cos(sine / 38))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0 + 0.02 * math.cos(sine / 32),1 + 0.15 * math.cos(sine / 32))*angles(math.rad(-21 - 2 * math.cos(sine / 32)),math.rad(8),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(25 - 6 * math.cos(sine / 37)),math.rad(-14 + 5 * math.cos(sine / 58)),math.rad(0 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(-24 + 9 * math.cos(sine / 72)),math.rad(3 - 5 * math.cos(sine / 58)),math.rad(38 + 7 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-0.8,0.35 + 0.025 * math.cos(sine / 45),-0.75)*angles(math.rad(160 - 2 * math.cos(sine / 66)),math.rad(5 - 8 * math.cos(sine / 59)),math.rad(87 - 3 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 4367677813 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * cn(0, 0, -0.5 + 0.02 * Cos(sine / 2)) * angles(Rad(-2), Rad(1), Rad(15)), 0.1)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko * angles(Rad(19 + 1 * Cos(sine / 25)), Rad(0), Rad(-15)), 0.1)
+RW.C0 = clerp(RW.C0, CFrame.new(1, 0.5, -0.35) * angles(Rad(90 - 2 * Cos(sine / 1)), Rad(0), Rad(-50)), 0.1)
+LW.C0 = clerp(LW.C0, CFrame.new(-1, 0.5, -0.15) * angles(Rad(70 + 2 * Cos(sine / 1)), Rad(-7), Rad(70)), 0.1)
+RH.C0 = clerp(RH.C0, cn(1, -0.5 - 0.02 * Cos(sine / 2), -0.2) * RHCF * angles(Rad(-4), Rad(0), Rad(-10 + 0.05 * math.cos(sine / 25))), 0.1)
+LH.C0 = clerp(LH.C0, cn(-1, -0.5 - 0.02 * Cos(sine / 2), -0.2) * LHCF * angles(Rad(-4), Rad(0), Rad(10 + 0.05 * Cos(sine / 25))), 0.1)
+elseif ModeOfGlitch == 664663666 then
+local snap = math.random(1,5)
+if snap == 1 then
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(25 + math.random(-1,1)),math.rad(math.random(-1,1)),math.rad(math.random(-1,1))),0.6)
+RW.C0=clerp(RW.C0,cf(1.5,0.5 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(25 + 5 * math.cos(sine / 74) + math.random(-1,1)),math.rad(1 - 3 * math.cos(sine / 53) + math.random(-1,1)),math.rad(1 + 3 * math.cos(sine / 45) + math.random(-1,1))),.6)
+end
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-10 - 2 * math.cos(sine / 39))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(10 + 6 * math.cos(sine / 31))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,-0.25 + 0.02 * math.cos(sine / 32),1 + 0.1 * math.cos(sine / 32))*angles(math.rad(25 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(25 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(0 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(25 + 5 * math.cos(sine / 74)),math.rad(1 - 3 * math.cos(sine / 53)),math.rad(1 + 3 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1.5,0.5,0)*angles(math.rad(160),math.rad(0),math.rad(25)),.1)
+elseif ModeOfGlitch == 999999999556 then
+RH.C0=clerp(RH.C0,cf(1,-0.4,-0.5)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(-10 - 6 * math.cos(sine / 39))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(-3),math.rad(0 - 1 * math.cos(sine / 56)),math.rad(10 + 3 * math.cos(sine / 45))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,0 + 0.02 * math.cos(sine / 32),1 + 0.15 * math.cos(sine / 32))*angles(math.rad(0 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(17)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(29 - 2 * math.cos(sine / 37)),math.rad(0 + 1 * math.cos(sine / 58)),math.rad(-17 + 2 * math.cos(sine / 53))),.1)
+RW.C0=clerp(RW.C0,cf(1,0.35 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(62 + 6 * math.cos(sine / 72)),math.rad(3 - 2 * math.cos(sine / 58)),math.rad(-82 + 2 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(89 - 7 * math.cos(sine / 66)),math.rad(4 - 3 * math.cos(sine / 59)),math.rad(67 - 4 * math.cos(sine / 45))),.1)
+end
+end
+elseif torvel>2 and torvel<22 and hitfloor~=nil then
+Anim="Walk"
+if attack==false then
+if ModeOfGlitch ~= 1 and ModeOfGlitch ~= 101345 and ModeOfGlitch ~= 9700000000 and ModeOfGlitch ~= 10134 and ModeOfGlitch ~= 44101 and ModeOfGlitch ~= 8766256484 and ModeOfGlitch ~= 5 and ModeOfGlitch ~= 6 and ModeOfGlitch ~= 453453484635345 and ModeOfGlitch ~= 34101 and ModeOfGlitch ~= 0927763369 and ModeOfGlitch ~= 5 and ModeOfGlitch ~= 9600000000 and ModeOfGlitch ~= 1013450 then
+RH.C0=clerp(RH.C0,cf(1,-1 + 0.05 * math.cos(sine / 4),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(0),math.rad(0 + 5 * math.cos(sine / 8)),math.rad(0 + 35 * math.cos(sine / 8))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 + 0.05 * math.cos(sine / 4),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(0),math.rad(0 + 5 * math.cos(sine / 8)),math.rad(0 + 35 * math.cos(sine / 8))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,-0.05,-0.05 - 0.05 * math.cos(sine / 4))*angles(math.rad(5 + 3 * math.cos(sine / 4)),math.rad(0 + root.RotVelocity.Y/1.5),math.rad(0 - root.RotVelocity.Y - 5 * math.cos(sine / 8))),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(10 - 3 * math.cos(sine / 4)),math.rad(0 + root.RotVelocity.Y/1.5),math.rad(0 - hed.RotVelocity.Y*1.5 + 5 * math.cos(sine / 8))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5,0 + 0.25 * math.cos(sine / 8))*angles(math.rad(0 - 50 * math.cos(sine / 8)),math.rad(0),math.rad(5 - 10 * math.cos(sine / 4))),.1)
+LW.C0=clerp(LW.C0,cf(-1.5,0.5,0 - 0.25 * math.cos(sine / 8))*angles(math.rad(0 + 50 * math.cos(sine / 8)),math.rad(0),math.rad(-5 + 10 * math.cos(sine / 4))),.1)
+elseif ModeOfGlitch == 101345 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0* Player_Size, 0* Player_Size, -0.175 + 0.13 * Cos(sine / 3.5) + -Sin(sine / 3.5) / 7* Player_Size) * angles(Rad(3 - 2.5 * Cos(sine / 3.5)), Rad(0) - root.RotVelocity.Y / 75, Rad(10 * Cos(sine / 7))), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko* CF(0, 0, 0 + ((1* Player_Size) - 1)) * angles(Rad(0), Rad(0), Rad(0) - hed.RotVelocity.Y / 15), 0.3)
+RH.C0 = clerp(RH.C0, CF(1* Player_Size, -0.8 - 0.5 * Cos(sine / 7) / 2* Player_Size, 0.6 * Cos(sine / 7) / 2* Player_Size)  * angles(Rad(-10 - 25 * Cos(sine / 7)) - rl.RotVelocity.Y / 75 + -Sin(sine / 7) / 2.5, Rad(90 - 15 * Cos(sine / 7)), Rad(0)) * angles(Rad(0 + 2 * Cos(sine / 7)), Rad(0), Rad(0)), 0.3)
+LH.C0 = clerp(LH.C0, CF(-1* Player_Size, -0.8 + 0.5 * Cos(sine / 7) / 2* Player_Size, -0.6 * Cos(sine / 7) / 2* Player_Size) * angles(Rad(-10 + 25 * Cos(sine / 7)) + ll.RotVelocity.Y / 75 + Sin(sine / 7) / 2.5, Rad(-90 - 15 * Cos(sine / 7)), Rad(0)) * angles(Rad(0 - 2 * Cos(sine / 7)), Rad(0), Rad(0)), 0.3)
+RW.C0 = clerp(RW.C0, CF(1.5* Player_Size, 0.5 + 0.05 * Sin(sine / 7)* Player_Size, 0* Player_Size) * angles(Rad(57)  * Cos(sine / 7) , Rad(10 * Cos(sine / 7)), Rad(10) - ra.RotVelocity.Y / 75), 0.1)
+LW.C0 = clerp(LW.C0, CF(-1.5* Player_Size, 0.5 + 0.05 * Sin(sine / 7)* Player_Size, 0* Player_Size) * angles(Rad(-57)  * Cos(sine / 7) , Rad(10 * Cos(sine / 7)) ,	Rad(-10) + la.RotVelocity.Y / 75), 0.1)
+elseif ModeOfGlitch == 1013450 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0* Player_Size, 0* Player_Size, -0.175 + 0.13 * Cos(sine / 3.5) + -Sin(sine / 3.5) / 7* Player_Size) * angles(Rad(3 - 2.5 * Cos(sine / 3.5)), Rad(0) - root.RotVelocity.Y / 75, Rad(10 * Cos(sine / 7))), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko* CF(0, 0, 0 + ((1* Player_Size) - 1)) * angles(Rad(0), Rad(0), Rad(0) - hed.RotVelocity.Y / 15), 0.3)
+RH.C0 = clerp(RH.C0, CF(1* Player_Size, -0.8 - 0.5 * Cos(sine / 7) / 2* Player_Size, 0.6 * Cos(sine / 7) / 2* Player_Size)  * angles(Rad(-10 - 25 * Cos(sine / 7)) - rl.RotVelocity.Y / 75 + -Sin(sine / 7) / 2.5, Rad(90 - 15 * Cos(sine / 7)), Rad(0)) * angles(Rad(0 + 2 * Cos(sine / 7)), Rad(0), Rad(0)), 0.3)
+LH.C0 = clerp(LH.C0, CF(-1* Player_Size, -0.8 + 0.5 * Cos(sine / 7) / 2* Player_Size, -0.6 * Cos(sine / 7) / 2* Player_Size) * angles(Rad(-10 + 25 * Cos(sine / 7)) + ll.RotVelocity.Y / 75 + Sin(sine / 7) / 2.5, Rad(-90 - 15 * Cos(sine / 7)), Rad(0)) * angles(Rad(0 - 2 * Cos(sine / 7)), Rad(0), Rad(0)), 0.3)
+RW.C0 = clerp(RW.C0, CF(1.5* Player_Size, 0.5 + 0.05 * Sin(sine / 7)* Player_Size, 0* Player_Size) * angles(Rad(57)  * Cos(sine / 7) , Rad(10 * Cos(sine / 7)), Rad(10) - ra.RotVelocity.Y / 75), 0.1)
+LW.C0 = clerp(LW.C0, CF(-1.5* Player_Size, 0.5 + 0.05 * Sin(sine / 7)* Player_Size, 0* Player_Size) * angles(Rad(-57)  * Cos(sine / 7) , Rad(10 * Cos(sine / 7)) ,	Rad(-10) + la.RotVelocity.Y / 75), 0.1)
+elseif ModeOfGlitch == 8766256484 then
+RH.C0=clerp(RH.C0,cf(1,-0.5,-0.6)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(1.5),math.rad(0),math.rad(-20 - 5 * math.cos(sine / 34))),.2)
+LH.C0=clerp(LH.C0,cf(-1,-1,0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(1),math.rad(0),math.rad(20 + 2 * math.cos(sine / 38))),.2)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0 - 0.25 * math.cos(sine / 50),0 + 0.25 * math.cos(sine / 43),2 + 1 * math.cos(sine / 32))*angles(math.rad(30 - 2 * math.cos(sine / 32)),math.rad(0),math.rad(0)),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(-17 - 5 * math.cos(sine / 52)),math.rad(0 - 3 * math.cos(sine / 37)),math.rad(0 + 2 * math.cos(sine / 78))),.2)
+RW.C0=clerp(RW.C0,cf(1,0.35 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(62 + 6 * math.cos(sine / 72)),math.rad(3 - 2 * math.cos(sine / 58)),math.rad(-82 + 2 * math.cos(sine / 45))),.1)
+LW.C0=clerp(LW.C0,cf(-1,0.5 + 0.025 * math.cos(sine / 45),-0.5)*angles(math.rad(89 - 7 * math.cos(sine / 66)),math.rad(4 - 3 * math.cos(sine / 59)),math.rad(67 - 4 * math.cos(sine / 45))),.1)
+elseif ModeOfGlitch == 10134 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0, 0, -0.175 + 0.025 * Cos(sine / 3.5) + -Sin(sine / 3.5) / 7) * angles(Rad(3 - 2.5 * Cos(sine / 3.5)), Rad(0) - root.RotVelocity.Y / 75, Rad(3 * Cos(sine / 7))), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko * angles(Rad(6 - 2.5 * Sin(sine / 7)), Rad(0), Rad(0) - hed.RotVelocity.Y / 15), 0.3)
+RH.C0 = clerp(RH.C0, CF(1, -0.8 - 0.5 * Cos(sine / 7) / 2, 0.6 * Cos(sine / 7) / 2)  * angles(Rad(-15 - 5 * Cos(sine / 7)) - rl.RotVelocity.Y / 75 + -Sin(sine / 7) / 2.5, Rad(90 - 3 * Cos(sine / 7)), Rad(0)) * angles(Rad(0 + 2 * Cos(sine / 7)), Rad(0), Rad(0)), 0.3)
+LH.C0 = clerp(LH.C0, CF(-1, -0.8 + 0.5 * Cos(sine / 7) / 2, -0.6 * Cos(sine / 7) / 2) * angles(Rad(-15 + 5 * Cos(sine / 7)) + ll.RotVelocity.Y / 75 + Sin(sine / 7) / 2.5, Rad(-90 - 3 * Cos(sine / 7)), Rad(0)) * angles(Rad(0 - 2 * Cos(sine / 7)), Rad(0), Rad(0)), 0.3)
+RW.C0 = clerp(RW.C0, CF(1* Player_Size, 0.3 + 0.02 * Sin(sine / 20)* Player_Size, .6* Player_Size) * angles(Rad(-35), Rad(-25 + 2.5 * Sin(sine / 20)), Rad(-55 + 2.5 * Sin(sine / 20))), 0.12)
+LW.C0 = clerp(LW.C0, CF(-1* Player_Size, 0.3 + 0.02 * Sin(sine / 20)* Player_Size, .6* Player_Size) * angles(Rad(-35), Rad(25 + 2.5 * Sin(sine / 20)), Rad(55 + 2.5 * Sin(sine / 20))), 0.12)
+elseif ModeOfGlitch == 44101 then
+RH.C0=clerp(RH.C0,cf(1,-1 + 0.05 * math.cos(sine / 4),0)*angles(math.rad(0),math.rad(90),math.rad(0))*angles(math.rad(0),math.rad(0 + 5 * math.cos(sine / 8)),math.rad(0 + 35 * math.cos(sine / 8))),.1)
+LH.C0=clerp(LH.C0,cf(-1,-1 + 0.05 * math.cos(sine / 4),0)*angles(math.rad(0),math.rad(-90),math.rad(0))*angles(math.rad(0),math.rad(0 + 5 * math.cos(sine / 8)),math.rad(0 + 35 * math.cos(sine / 8))),.1)
+RootJoint.C0=clerp(RootJoint.C0,RootCF*cf(0,-0.05,-0.05 - 0.05 * math.cos(sine / 4))*angles(math.rad(5 + 3 * math.cos(sine / 4)),math.rad(0 + root.RotVelocity.Y/1.5),math.rad(0 - root.RotVelocity.Y - 5 * math.cos(sine / 8))),.1)
+Torso.Neck.C0=clerp(Torso.Neck.C0,necko*angles(math.rad(10 - 3 * math.cos(sine / 4)),math.rad(0 + root.RotVelocity.Y/1.5),math.rad(0 - hed.RotVelocity.Y*1.5 + 5 * math.cos(sine / 8))),.1)
+RW.C0=clerp(RW.C0,cf(1.5,0.5,0 + 0.25 * math.cos(sine / 8))*angles(math.rad(0 - 50 * math.cos(sine / 8)),math.rad(0),math.rad(5 - 10 * math.cos(sine / 4))),.1)
+LW.C0=clerp(LW.C0,cf(-1.5,0.5,0 - 0.25 * math.cos(sine / 8))*angles(math.rad(0 + 50 * math.cos(sine / 8)),math.rad(0),math.rad(-5 + 10 * math.cos(sine / 4))),.1)
+elseif ModeOfGlitch == 5 then
+RootJoint.C0 = clerp(RootJoint.C0, RootCF * CF(0, 0, -0.175 + 0.025 * Cos(sine / 3.5) + -Sin(sine / 3.5) / 7) * angles(Rad(4-2.5 * Cos(sine / 3.5)), Rad(0) - root.RotVelocity.Y / 75, Rad(5 * Cos(sine / 7))), 0.15)
+Torso.Neck.C0 = clerp(Torso.Neck.C0, necko * angles(Rad(30 - 2.5 * Sin(sine / 20)), Rad(0), Rad(0)), 0.3)
+if Mrandom(1,15) == 1 then
+tors.Neck.C0 = clerp(tors.Neck.C0, necko * CF(0, 0, 0 + ((1) - 1)) * angles(Rad(Mrandom(-15,15)), Rad(Mrandom(-15,15)), Rad(Mrandom(-15,15))), 1)
+end
+RH.C0 = clerp(RH.C0, CF(1, -0.925 - 0.5 * Cos(sine / 7) / 2, 0.5 * Cos(sine / 7) / 2) * angles(Rad(-15 - 5 * Cos(sine / 7)) - rl.RotVelocity.Y / 75 + -Sin(sine / 7) / 2.5, Rad(90 - 0.1 * Cos(sine / 7)), Rad(0)) * angles(Rad(0 + 0.1 * Cos(sine / 7)), Rad(0), Rad(0)), 0.3)
+LH.C0 = clerp(LH.C0, CF(-1, -0.925 + 0.5 * Cos(sine / 7) / 2, -0.5 * Cos(sine / 7) / 2) * angles(Rad(-15 + 5 * Cos(sine / 7)) + ll.RotVelocity.Y / 75 + Sin(sine / 7) / 2.5, Rad(-90 - 0.
