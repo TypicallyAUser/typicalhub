@@ -326,6 +326,6 @@ RootJoint.C0 = Clerp(RootJoint.C0, ROOTC0 * CF(0, 0, -0.175 + 0.025 * COS(SINE /
 			LeftShoulder.C0 = Clerp(LeftShoulder.C0, CF(-1.2, 0.4-0.07 * COS(SINE / 12),  -0.5) * ANGLES(RAD(0* COS(SINE / 12)), RAD(15), RAD(90))* LEFTSHOULDERC0, 0.9 / Animation_Speed)
 		RightHip.C0 = Clerp(RightHip.C0, CF(1, -1 -0.1 * COS(SINE / 18), -0) * ANGLES(RAD(-15 - 35 * COS(SINE / 7)) + -SIN(SINE / 7) / 2.5, RAD(0 - 2 * COS(SINE / 7)), RAD(0)) * ANGLES(RAD(0 + 2.5 * COS(SINE / 7)), RAD(90), RAD(0)), 0.55)
             LeftHip.C0 = Clerp(LeftHip.C0, CF(-1, -1 -0.1 * COS(SINE / 18) , -0) * ANGLES(RAD(-15 + 35 * COS(SINE / 7)) + SIN(SINE / 7) / 2.5, RAD(0 - 2 * COS(SINE / 7)), RAD(0)) * ANGLES(RAD(0 - 2.5 * COS(SINE / 7)), RAD(-90), RAD(0)), 0.55)    end
-			end
+			--end
 end
 unachor()
