@@ -1,8 +1,11 @@
 local char = game.Players.LocalPlayer.Character
+if _G.permadeath == true then
+	char = workspace.non
+end
 local mouse = game.Players.LocalPlayer:GetMouse()
 local UserInputService = game:GetService("UserInputService")
 
-local gun = game.Players.LocalPlayer.Character['Police Riot Shield Back'].Handle
+local gun = char['Police Riot Shield Back'].Handle
 local gunPos = Instance.new("AlignPosition", gun)
 local gunO = Instance.new("AlignOrientation", gun)
 local att1 = Instance.new("Attachment")
@@ -18,10 +21,13 @@ gunO.Attachment0 = gun.BodyBackAttachment
 gunO.Attachment1 = att1
 
 local char = game.Players.LocalPlayer.Character
+if _G.permadeath == true then
+	char = workspace.non
+end
 local mouse = game.Players.LocalPlayer:GetMouse()
 local UserInputService = game:GetService("UserInputService")
 
-local gun = game.Players.LocalPlayer.Character['Black Type-37 Pulse Rifle'].Handle
+local gun = char['Black Type-37 Pulse Rifle'].Handle
 local gunPos = Instance.new("AlignPosition", gun)
 local gunO = Instance.new("AlignOrientation", gun)
 local att1 = Instance.new("Attachment")
@@ -41,6 +47,9 @@ PlayerGui = Player.PlayerGui
 Cam = workspace.CurrentCamera
 Backpack = Player.Backpack
 Character = game.Players.LocalPlayer.Character
+if _G.permadeath == true then
+	Character = workspace.non
+end
 Humanoid = Character.Humanoid
 Mouse = Player:GetMouse()
 RootPart = Character.HumanoidRootPart
