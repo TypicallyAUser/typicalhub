@@ -207,6 +207,7 @@ end
                     DeadChar:FindFirstChildOfClass("Humanoid"):Destroy()
                     game:FindFirstChildOfClass("Players").LocalPlayer.Character = CloneChar
                     if DeadChar:FindFirstChildOfClass("Folder") then DeadChar:FindFirstChildOfClass("Folder"):Destroy() end
+						_G.scriptran = false
                 end)
                 if resetBindable then
                     game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
