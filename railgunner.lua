@@ -7,7 +7,7 @@ end
 local mouse = game.Players.LocalPlayer:GetMouse()
 local UserInputService = game:GetService("UserInputService")
 
-local gun = game.Players.LocalPlayer.Character['Starslayer Railgun'].Handle
+local gun = char['Starslayer Railgun'].Handle
 local gunPos = Instance.new("AlignPosition", gun)
 local gunO = Instance.new("AlignOrientation", gun)
 gunO.RigidityEnabled = true
