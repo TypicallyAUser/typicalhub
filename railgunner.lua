@@ -16,7 +16,7 @@ local att1 = Instance.new("Attachment")
 gunPos.Responsiveness = 999999
 gunO.Responsiveness = 999999
 gun.AccessoryWeld:Destroy()
-att1.Position = Vector3.new(-0.3,-2.1,0.2)
+att1.Position = Vector3.new(-1, -2, 0.3)
 att1.Orientation = Vector3.new(180,0,135)
 att1.Parent = char["Right Arm"]
 gunPos.Attachment0 = gun.BodyBackAttachment
@@ -81,7 +81,7 @@ Sound.Looped = true
 end
 end
 
-CreateSound("924339757", true, 1, 0)
+CreateSound("924339757", true, 1, 53)
 
 -------------------------------------------------------------------------
 
@@ -258,6 +258,7 @@ end
 function shoot1()
 Humanoid.WalkSpeed = 3
 ATTACK = true
+CreateSound("834546352", false, 2, 0)
 for i = 1,1 /.03 do
 Swait()
 
