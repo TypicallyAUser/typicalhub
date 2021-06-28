@@ -328,18 +328,18 @@ elseif TORSOVERTICALVELOCITY < -1 and ATTACK == false and Equipped == false and 
             LeftHip.C0 = Clerp(LeftHip.C0, CF(-1, -1, 0) * ANGLES(RAD(-20), RAD(-90), RAD(0)) * ANGLES(RAD(0), RAD(0), RAD(10)), 0.2 / Animation_Speed)
     elseif TORSOVELOCITY < 1 and ATTACK == false and Equipped == false and HITFLOOR ~= nil then
 		ANIM = "Idle"
-       RootJoint.C0 = Clerp(RootJoint.C0,ROOTC0 * CF(0 , 0 ,0.1 * COS(SINE / 18)) * ANGLES(RAD(-40), RAD(0), RAD(0)), 0.5 / Animation_Speed)
+       RootJoint.C0 = Clerp(RootJoint.C0,ROOTC0 * CF(0 , 0 ,1+0.1 * COS(SINE / 18)) * ANGLES(RAD(-40), RAD(0), RAD(0)), 0.5 / Animation_Speed)
 			RightShoulder.C0 = Clerp(RightShoulder.C0, CF(1.5, 0.5-0.05 * COS(SINE / 12), 0) * ANGLES(RAD(0* COS(SINE / 12)), RAD(-90), RAD(-115))* RIGHTSHOULDERC0,0.5 / Animation_Speed)
-			LeftShoulder.C0 = Clerp(LeftShoulder.C0, CF(-1.5, 0.5-0.05 * COS(SINE / 12),  0) * ANGLES(RAD(0* COS(SINE / 12)), RAD(90), RAD(-40))* LEFTSHOULDERC0, 0.5 / Animation_Speed)
-			RightHip.C0 = Clerp(RightHip.C0, CF(1, -0.7 -0 * COS(SINE / 12), -0.4) * ANGLES(RAD(-45), RAD(90), RAD(0)) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
-			LeftHip.C0 = Clerp(LeftHip.C0, CF(-1, -0.9 -0 * COS(SINE / 12) , -0.1) * ANGLES(RAD(-32), RAD(-90), RAD(0)) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
+			LeftShoulder.C0 = Clerp(LeftShoulder.C0, CF(-1.5, 0.5-0.05 * COS(SINE / 12),  0) * ANGLES(RAD(-10* COS(SINE / 23)), RAD(90), RAD(-40))* LEFTSHOULDERC0, 0.5 / Animation_Speed)
+			RightHip.C0 = Clerp(RightHip.C0, CF(1, -0.7 -0 * COS(SINE / 12), -0.4) * ANGLES(RAD(-45), RAD(90), RAD(20* COS(SINE / 23))) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
+			LeftHip.C0 = Clerp(LeftHip.C0, CF(-1, -0.9 -0 * COS(SINE / 12) , -0.1) * ANGLES(RAD(-32), RAD(-90), RAD(20* COS(SINE / 23))) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
             elseif TORSOVELOCITY > 1 and Equipped == false and HITFLOOR ~= nil then
 		ANIM = "Walk"
-RootJoint.C0 = Clerp(RootJoint.C0,ROOTC0 * CF(0 , 0 ,0 * COS(SINE / 12)) * ANGLES(RAD(12), RAD(0), RAD(0)), 0.5 / Animation_Speed)
+RootJoint.C0 = Clerp(RootJoint.C0,ROOTC0 * CF(0 , 0 ,1+0.2 * COS(SINE / 20)) * ANGLES(RAD(12), RAD(0), RAD(0)), 0.5 / Animation_Speed)
 			RightShoulder.C0 = Clerp(RightShoulder.C0, CF(1.5, 0.5-0.05 * COS(SINE / 12), 0) * ANGLES(RAD(0* COS(SINE / 12)), RAD(-90), RAD(-130))* RIGHTSHOULDERC0,0.5 / Animation_Speed)
 			LeftShoulder.C0 = Clerp(LeftShoulder.C0, CF(-1.5, 0.5-0.05 * COS(SINE / 12),  0) * ANGLES(RAD(0* COS(SINE / 12)), RAD(90), RAD(-40))* LEFTSHOULDERC0, 0.5 / Animation_Speed)
-			RightHip.C0 = Clerp(RightHip.C0, CF(1, -0.7 -0 * COS(SINE / 12), -0.4) * ANGLES(RAD(-55), RAD(90), RAD(0)) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
-			LeftHip.C0 = Clerp(LeftHip.C0, CF(-1, -0.9 -0 * COS(SINE / 12) , -0.1) * ANGLES(RAD(-42), RAD(-90), RAD(0)) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
+			RightHip.C0 = Clerp(RightHip.C0, CF(1, -0.7 -0 * COS(SINE / 12), -0.4) * ANGLES(RAD(-55), RAD(90), RAD(30* COS(SINE / 23))) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
+			LeftHip.C0 = Clerp(LeftHip.C0, CF(-1, -0.9 -0 * COS(SINE / 12) , -0.1) * ANGLES(RAD(-42), RAD(-90), RAD(30* COS(SINE / 23))) * ANGLES(RAD(-0), RAD(0), RAD(0)), 0.5 / Animation_Speed)
 			end
 end
 unachor()
