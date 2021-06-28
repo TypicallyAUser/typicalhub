@@ -178,7 +178,7 @@ function UnCollide()
     end 
 end
 Collider = game:GetService("RunService").Stepped:Connect(UnCollide)
---[[
+
 local resetBindable = Instance.new("BindableEvent")
 resetBindable.Event:connect(function()
     game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
@@ -214,17 +214,7 @@ coroutine.wrap(function()
         end		
     end
 end)()
---]]
 
-                local resetBindable = Instance.new("BindableEvent")
-        resetBindable.Event:connect(function()
-            game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
-            resetBindable:Destroy()
-            CloneChar:Remove()
-            DeadChar:Remove()
-        end)
-        game:GetService("StarterGui"):SetCore("ResetButtonCallback", resetBindable)
-    
 
 
 SCIFIMOVIELOL(DeadChar["Head"],CloneChar["Head"])
