@@ -10,6 +10,8 @@ local UserInputService = game:GetService("UserInputService")
 local gun = game.Players.LocalPlayer.Character['Starslayer Railgun'].Handle
 local gunPos = Instance.new("AlignPosition", gun)
 local gunO = Instance.new("AlignOrientation", gun)
+gunO.RigidityEnabled = true
+gunPos.RigidityEnabled = true
 local att1 = Instance.new("Attachment")
 gunPos.Responsiveness = 999999
 gunO.Responsiveness = 999999
@@ -22,6 +24,8 @@ gunPos.Attachment1 = att1
 gunO.Attachment0 = gun.BodyBackAttachment
 gunO.Attachment1 = att1
 
+
+-- 924339757
 Player = game:GetService("Players").LocalPlayer
 PlayerGui = Player.PlayerGui
 Cam = workspace.CurrentCamera
@@ -46,6 +50,38 @@ LeftShoulder = Torso["Left Shoulder"]
 RightHip = Torso["Right Hip"]
 LeftHip = Torso["Left Hip"]
 Equipped = false
+
+bc = BrickColor.new
+local bilguit = Instance.new("BillboardGui", Head)
+bilguit.Adornee = nil
+bilguit.Name = "ModeName"
+bilguit.Size = UDim2.new(4, 0, 1.2, 0)
+bilguit.StudsOffset = Vector3.new(-8, 8/1.5, 0)
+local modet = Instance.new("TextLabel", bilguit)
+modet.Size = UDim2.new(10/2, 0, 7/2, 0)
+modet.FontSize = "Size8"
+modet.TextScaled = true
+modet.TextTransparency = 0
+modet.BackgroundTransparency = 1 
+modet.TextTransparency = 0
+modet.TextStrokeTransparency = 0
+modet.Font = "Gotham"
+modet.TextStrokeColor3 = bc("Really black").Color
+modet.TextColor3 = bc("Grey").Color
+modet.Text = "Railgunner"
+
+function CreateSound(id, looped, volume, timepos)
+local Sound = Instance.new("Sound", Head)
+Sound.SoundId = "rbxassetid://"..id
+Sound:Play()
+Sound.TimePosition = timepos
+Sound.Volume = volume
+if looped == true then
+Sound.Looped = true
+end
+end
+
+CreateSound("924339757", true, 1, 0)
 
 -------------------------------------------------------------------------
 
